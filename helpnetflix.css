@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+.part1{
+    background-color: black;
+    width: 219vh;
+    height: 38vh;
+}
+.part1sub1{
+    background-color: black;
+    width: 219vh;
+    height: 15vh;
+
+}
+.netflixlogo{
+    margin-top: 10px;
+    margin-left: 10px;    
+    width: 20vh;
+    height: 5vh;
+    margin-top: 20px;
+    margin-left: 20px;   
+    margin-right: 20px;
+}
+.part1sub1 .Joinnetflix {
+    border: 1px solid white;
+    color:white;
+    float:right;
+    background-color: black;
+}
+.part1sub1 .Signin{
+    float:right;
+}
+.Joinnetflix{
+    float:right;
+    cursor: pointer;
+    height: 5vh;
+    width: 15vh;
+    text-align: justify;
+    padding : 0px;
+    margin: 5px;
+    margin-top: 0 px;
+    font-size: 15px; 
+    text-align: center;
+    font-weight: bolder; 
+    line-height: 30px;  
+    margin-top: 20px;
+    margin-left: 20px;   
+    margin-right: 20px;
+    border-radius: 2px;
+}
+.Signin{
+    cursor: pointer;
+    height: 5vh;
+    width: 15vh;
+    text-align: justify;
+    padding : 0px;
+    margin: 5px;
+    margin-top: 0 px;
+    color:white;
+    font-size: 18px; 
+    text-align: center;
+    font-weight: bolder;
+    background-color: red;
+    line-height: 30px;  
+    margin-top: 20px;
+    margin-left: 20px;   
+    margin-right: 20px;
+    border-radius: 2px;
+}
+.part1sub2 h1{
+    margin: auto;
+    text-align: center;
+    font-size: 1cm;
+    color: white;
+}
+input{
+    width: 100vh;
+    height: 7vh;
+    margin-left: 58vh;
+    margin-top: 3vh;
+    text-align: left;
+    border-radius: 3px;
+    font-size: 0.5cm
+    
+}
+.part2{
+    width: 80vh;
+    height: 18vh;
+    margin-top: 20px;
+    /* background-color: yellow; */
+    margin-left: 30px;
+}
+.part2 h1{
+    margin-top: 60px;
+    margin-left: 30px;
+    text-align: left;
+    font-size: 0.8cm;
+    color: black;
+}
+.part2 .Joinnetflix{
+    border: 1px solid red;
+    color:red;
+    background-color: white;
+    margin-left: 30px;
+    margin-top: 20px;
+    float: left;
+}
+.part2 .Signin{
+    float:left;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.part3{
+    width: 80vh;
+    height: 30vh;
+    margin-top: 10px;
+    margin-left: 30px;
+    background-color: aqua;
+}  
+.part3 p{
+    color: grey;
+    margin-left: 30px;
+    margin-top: 10px;
+    font-size: 0.5cm;
+
+}

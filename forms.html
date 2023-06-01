@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms and input tags</title>
+</head>
+<body>
+    <h3>this is a form to be filled</h3>
+    <form action="backend.xlsx"> 
+        <!-- here the backend file will save all the data filled in form by applicant -->
+        <div>
+            <label for="name">name</label>
+            <!-- Label tag makes the click on head also click on tex box -->
+            <!-- use div tag for dividing line instead of br tag since br is not recommended -->
+           <input type="text" name="my Name" id="name">
+            <!-- name attribute is used to save the information in backend file with that head -->
+        </div>
+        <br>
+        <div>
+            <label for="qualification">Qualification</label>
+         <input type="text" name="my qualification" id="qualification">
+        </div>
+        <br>
+        <div>
+            <label for="email">Email</label>
+            <!-- for input as email, type attribute can be taken as email -->
+           <input type="email" name="my Email" id="email">
+        </div>
+        <br>
+        <div>
+            <label for="date">Date of Birth</label>
+            <!-- for taking any date, use date as type attribute in input tag also u can use date time attribute if we need both -->
+        <input type="date" name=" my dob" id="date">
+        </div>
+        <br>
+        <div>
+            <label for="salary">Current Salary</label>
+            <!-- for taking input as only number or e for 10 raise to power2 can be return as 10e2 then use input tag with number as type attribute -->
+        <input type="number" name=" my salary" id="salary">
+        </div>
+        <div>
+            <label for="eligible">Are you Eligible?</label>
+            <!-- for checking any item use checkbox for type attribute in input tag -->
+        <input type="checkbox" name=" my eligiblity" id="eligible">
+        </div>
+        <div>
+            <label for="gender">Gender</label>
+            <!-- for ticking any one of the option in input tag, radio is used as type attribute but make sure to keep all options name and id attribute same then only it will take only one value  -->
+        Male<input type="radio" name=" my gender" id="gender">
+        Female<input type="radio" name=" my gender" id="gender">
+        other <input type="radio" name=" my gender" id="gender">
+        </div>
+        <div>
+            <label for="car">Car you own</label>
+            <!-- select tag is used when we want to seelect from given options only and for that options are inputed through option tag -->
+       <select name="my car" id="car">
+        <option value="Indica">Indica</option>
+        <option value="Suzuki">Suzuki</option>
+        <option value="bmw">BMW</option>
+        <option value="no car">No Car</option>
+       </select>
+        </div>
+        <div>
+            <label for="address">Address</label>
+        <input type="text" name=" my address" id="address">
+        </div>
+        <div>
+            <label for="about yourself">Write about Yourself</label>
+       <!-- when we want to give a area to write in detail about anything textarea tag is used -->
+       <textarea name="about myself" id="about yourself" cols="30" rows="10"></textarea>
+       <!-- you can change textarea size by changing column and row values -->
+        </div>
+        <div>
+            <label for="agree">Do you agree with all conditions</label>
+        <input type="checkbox" name=" my agreement" id="agree" checked>
+        <!-- if you write checked at end of input tag while using type attribute as checkbox then the box will be checked by default -->
+        </div>
+        <div>
+    <!-- for submiting the form use input:submit tag with type attribute as submit and value attribute as text you want to display on submit button -->
+        <input type="submit" value="Submit Now">
+        </div>
+        <div>
+            <!-- for reseting or clearing the form use input:reset tag with type attribute as reset and value attribute as text you want to display on reset button -->
+                <input type="reset" value="Clear Form">
+                </div>       
+    </form>
+    
+</body>
+</html>

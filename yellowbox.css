@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    width:40vh;
+    height: 30vh;
+
+}
+.button{
+    width: 15vh;
+    height: 5vh;
+    background-color: yellow;
+    color: black;
+    margin: 10vh;
+    padding: 10px;
+
+}
